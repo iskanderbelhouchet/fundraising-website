@@ -3099,7 +3099,7 @@ a:hover {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	padding: 80px 55px;
+	padding: 50px 30px;
 	color: var(--white);
 	text-align: center;
 }
@@ -5223,4 +5223,8 @@ a:hover {
 .contact-form input:not(:focus),
 .contact-form textarea:not(:focus) {
 	border-color: transparent;
+}
+
+#big{
+	padding-top: 20%;
 }
