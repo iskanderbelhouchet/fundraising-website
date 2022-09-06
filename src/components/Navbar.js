@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar () {
   return (
-    <header className='site-header sticky-header transparent-header topbar-transparent'>
+    <header className='site-header sticky-top transparent-header topbar-transparent'>
       <div className='header-topbar d-none d-sm-block'>
         <div className='container'>
           <div className='row justify-content-between align-items-center'>

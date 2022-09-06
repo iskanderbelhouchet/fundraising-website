@@ -28,27 +28,79 @@ function Home () {
             <div className='dot-two' />
           </div>
         </div>
-        <div className='hero-images'>
-          <div className='hero-img image-small fancy-bottom wow fadeInLeft' data-wow-delay='0.6s'>
-            <img src='dist/img/hero/hero-one-small.jpg' alt='img' />
-          </div>
-          <div className='hero-img main-img wow fadeInUp' data-wow-delay='0.5s'>
-            <img src='dist/img/hero/hero-one-big.jpg' alt='img' />
-          </div>
-          <div className='hero-img image-small fancy-top wow fadeInRight' data-wow-delay='0.7s'>
-            <img src='dist/img/hero/hero-one-small-2.jpg' alt='img' />
+      </section>
+      {/* ====== Hero Area End ====== */}
+      {/* ====== Counter Area Start ====== */}
+      <section className='counter-section-one mt-negative'>
+        <div className='container primary-bg'>
+          <div className='row counter-boxes justify-content-xl-between justify-content-center'>
+            <div className='col-xl-auto col-lg-5 col-md-5 col-sm-6'>
+              <div className='counter-box mb-40 icon-left'>
+                <div className='icon white-color'>
+                  <i className='flaticon-crowdfunding' />
+                </div>
+                <div className='content white-color'>
+                  <div className='count-wrap'>
+                    <span className='count'>0</span>
+                    <span className='suffix'>+</span>
+                  </div>
+                  <h6 className='title'>We’ve Project Complate</h6>
+                </div>
+              </div>
+            </div>
+            <div className='col-xl-auto col-lg-5 col-md-5 col-sm-6'>
+              <div className='counter-box mb-40 icon-left'>
+                <div className='icon white-color'>
+                  <i className='flaticon-crowdfunding' />
+                </div>
+                <div className='content white-color'>
+                  <div className='count-wrap'>
+                    <span className='count'>0</span>
+                    <span className='suffix'>+</span>
+                  </div>
+                  <h6 className='title'>Global Partners</h6>
+                </div>
+              </div>
+            </div>
+            <div className='col-xl-auto col-lg-5 col-md-5 col-sm-6'>
+              <div className='counter-box mb-40 icon-left'>
+                <div className='icon white-color'>
+                  <i className='flaticon-crowdfunding' />
+                </div>
+                <div className='content white-color'>
+                  <div className='count-wrap'>
+                    <span className='count'>0</span>
+                    <span className='suffix'>+</span>
+                  </div>
+                  <h6 className='title'>Awards Winning</h6>
+                </div>
+              </div>
+            </div>
+            <div className='col-xl-auto col-lg-5 col-md-5 col-sm-6'>
+              <div className='counter-box mb-40 icon-left'>
+                <div className='icon white-color'>
+                  <i className='flaticon-crowdfunding' />
+                </div>
+                <div className='content white-color'>
+                  <div className='count-wrap'>
+                    <span className='count'>0</span>
+                    <span className='suffix'>+</span>
+                  </div>
+                  <h6 className='title'>Active Volunteer</h6>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      {/* ====== Hero Area End ====== */}
-
+      {/* ====== Counter Area End ====== */}
       {/* ====== About Section Start ====== */}
       <section className='about-section-one'>
         <div className='container'>
           <div className='row align-items-center justify-content-lg-start justify-content-center'>
             <div className='col-xl-6 col-lg-7 col-md-9'>
               <div className='about-img'>
-                <img id='big' src='dist/img/about/about-one.jpg' alt='img' />
+                <img id='big' src='dist/img/about/5.png' alt='img' />
               </div>
             </div>
             <div className='col-xl-4 col-lg-5 col-md-10 offset-xl-1'>
@@ -174,71 +226,6 @@ function Home () {
       </section>
       {/* ====== Testimonials End ====== */}
 
-      {/* ====== Counter Area Start ====== */}
-      <section className='counter-section-one mt-negative'>
-        <div className='container primary-bg'>
-          <div className='row counter-boxes justify-content-xl-between justify-content-center'>
-            <div className='col-xl-auto col-lg-5 col-md-5 col-sm-6'>
-              <div className='counter-box mb-40 icon-left'>
-                <div className='icon white-color'>
-                  <i className='flaticon-crowdfunding' />
-                </div>
-                <div className='content white-color'>
-                  <div className='count-wrap'>
-                    <span className='count'>0</span>
-                    <span className='suffix'>+</span>
-                  </div>
-                  <h6 className='title'>We’ve Project Complate</h6>
-                </div>
-              </div>
-            </div>
-            <div className='col-xl-auto col-lg-5 col-md-5 col-sm-6'>
-              <div className='counter-box mb-40 icon-left'>
-                <div className='icon white-color'>
-                  <i className='flaticon-crowdfunding' />
-                </div>
-                <div className='content white-color'>
-                  <div className='count-wrap'>
-                    <span className='count'>0</span>
-                    <span className='suffix'>+</span>
-                  </div>
-                  <h6 className='title'>Global Partners</h6>
-                </div>
-              </div>
-            </div>
-            <div className='col-xl-auto col-lg-5 col-md-5 col-sm-6'>
-              <div className='counter-box mb-40 icon-left'>
-                <div className='icon white-color'>
-                  <i className='flaticon-crowdfunding' />
-                </div>
-                <div className='content white-color'>
-                  <div className='count-wrap'>
-                    <span className='count'>0</span>
-                    <span className='suffix'>+</span>
-                  </div>
-                  <h6 className='title'>Awards Winning</h6>
-                </div>
-              </div>
-            </div>
-            <div className='col-xl-auto col-lg-5 col-md-5 col-sm-6'>
-              <div className='counter-box mb-40 icon-left'>
-                <div className='icon white-color'>
-                  <i className='flaticon-crowdfunding' />
-                </div>
-                <div className='content white-color'>
-                  <div className='count-wrap'>
-                    <span className='count'>0</span>
-                    <span className='suffix'>+</span>
-                  </div>
-                  <h6 className='title'>Active Volunteer</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* ====== Counter Area End ====== */}
-
       {/* ====== Emergency Project & CTA Start ====== */}
       <section className='emergency-project-with-cta pt-5'>
         <div className='container'>
@@ -260,36 +247,33 @@ function Home () {
           <div className='container'>
             <div className='common-heading text-center mb-60'>
               <span className='tagline'>
-                <i className='fas fa-plus' /> Donate Projects
-                <span className='heading-shadow-text'>Donate</span>
+                <i className='fas fa-plus' /> What Are our Terms and Conditions
+                <span className='heading-shadow-text'>What Are our Terms and Conditions</span>
               </span>
               <h2 className='title'>Terms & Conditions</h2>
             </div>
             <div className='row project-slider-two project-items project-style-four'>
               <div className='col'>
                 <div className='project-item'>
-                  <div className='thumb' style={{ backgroundImage: 'url(dist/img/project/project-slider-01.jpg)' }} />
                   <div className='content'>
                     <div className='cats'>
                       <a href='fake-url'>TERMS</a>
                     </div>
-                    <div className='author'>
-                      <img src='dist/img/author-thumbs/01.jpg' alt='Thumb' />
-                      <a href='fake-url'>James W. Barrows</a>
+                    <h5 className='title'>
+                      <a href='project-details.html'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div className='col'>
+                <div className='project-item'>
+                  <div className='content'>
+                    <div className='cats'>
+                      <a href='fake-url'>CONDITIONS</a>
                     </div>
                     <h5 className='title'>
-                      <a href='project-details.html'>Fundraising For The People And Causes You Car About</a>
+                      <a href='project-details.html'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
                     </h5>
-                    <div className='project-stats'>
-                      <div className='stats-value'>
-                        <span className='value-title'>Raised of <span className='value'>$59,689</span></span>
-                        <span className='stats-percentage'>83%</span>
-                      </div>
-                      <div className='stats-bar' data-value={90}>
-                        <div className='bar-line' />
-                      </div>
-                    </div>
-                    <span className='date'><i className='far fa-calendar-alt' /> 25 February 2021</span>
                   </div>
                 </div>
               </div>
