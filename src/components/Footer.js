@@ -13,7 +13,8 @@ function Footer () {
                     <img src='assets/img/logo-white.png' alt='Funden' />
                   </div>
                   <p>
-                  Lorem ipsum dolor sit amet,Et magnis dis parturient montes nascetur. ac turpis egestas.</p>
+                    Lorem ipsum dolor sit amet,Et magnis dis parturient montes nascetur. ac turpis egestas.
+                  </p>
                   <div className='newsletter-form'>
                     <h5 className='form-title'>Join Newsletters</h5>
                     <form action='#'>
